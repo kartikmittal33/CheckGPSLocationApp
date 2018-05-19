@@ -48,6 +48,7 @@ public class MainActivity extends AppCompatActivity {
         if(gpsTracker != null)
             gpsTracker.stopUsingGPS();
         pressed = false;
+
         handler.removeCallbacks(runnable);
     }
 }
